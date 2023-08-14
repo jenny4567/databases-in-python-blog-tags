@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS "public"."posts";
+DROP TABLE IF EXISTS "public"."posts" cascade;
 -- This script only contains the table creation statements and does not fully represent the table in the database. It's still missing: indices, triggers. Do not use it as a backup.
 
 -- Table Definition
